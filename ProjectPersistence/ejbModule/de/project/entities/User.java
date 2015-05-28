@@ -11,7 +11,7 @@ import javax.persistence.ManyToMany;
 @Entity
 public class User implements Serializable{
 	
-	public static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 	
 	@Id
 	private String email;
